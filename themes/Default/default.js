@@ -217,7 +217,7 @@ function exploitDone(a) {
     });
 }
 function displayHome() {
-  $(document).prop("title", "Category Selection | Exploit Host by Al Azif"),
+  $(document).prop("title", "Category Selection | parknJBHost"),
     window.history.replaceState({ location: "", modal: !1 }, null, " "),
     $("#title").text("Category Selection"),
     $("#header").text("Categories"),
@@ -225,7 +225,7 @@ function displayHome() {
     $("#category-buttons").show();
 }
 function displayCategory(a) {
-  $(document).prop("title", "Exploit Selection | Exploit Host by Al Azif"),
+  $(document).prop("title", "Exploit Selection | parknJBHost"),
     window.history.pushState({ location: a, modal: !1 }, null, "#".concat(a)),
     $("#title").text("Exploit Selection"),
     $("#header").text(a),
@@ -791,7 +791,7 @@ function buildAfterCaching() {
         $("#settings-modal").on("show.bs.modal", settingsModal),
         $("#url-modal").on("show.bs.modal", urlModal);
     } else {
-      $(document).prop("title", "Menu Error | Exploit Host by Al Azif"),
+      $(document).prop("title", "Menu Error | parknJBHost"),
         $("#title").text("Menu Error"),
         $("#header").text("");
       var c = '<div class="col-sm-9 col-md-9 col-lg-9">';
