@@ -686,8 +686,6 @@ function randomBackground() {
   var a = [
     'url("'.concat(getBasePath(), '/themes/Default/images/0.png")'),
     'url("'.concat(getBasePath(), '/themes/Default/images/1.png")'),
-    'url("'.concat(getBasePath(), '/themes/Default/images/2.png")'),
-    'url("'.concat(getBasePath(), '/themes/Default/images/3.png")'),
   ];
   $("body").css("background-image", a[Math.floor(Math.random() * a.length)]);
 }
