@@ -2,9 +2,9 @@ updates/*
 !updates/ps4-updatelist.xml
 !updates/ps5-updatelist.xml
 !updates/psp2-updatelist.xml
-payloads/*
+#payloads/*
 !payloads/PUT PAYLOADS HERE
-exploits/*
+#exploits/*
 !exploits/PUT EXPLOITS HERE
 themes/*
 !pkgs/PUT PKGS HERE
